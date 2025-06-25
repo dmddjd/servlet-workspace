@@ -45,8 +45,12 @@ public class TestPersonServlet2 extends HttpServlet {
 		// 필요한 객체(attribute) 
 		request.setAttribute("recommend", recommend);
 		
-		// html작성을 jsp에게 위임
-		// 매개변수로 요청을 위임할 jsp의 경로를 추가.
+		/*
+		 * html작성을 jsp에게 위임
+		 * 매개변수로 요청을 위임할 jsp의 경로를 추가.
+		 * getRequestDispatcher("jsp의주소 || 서블릿의 url패턴(/first, /second/, life)")
+		 * 지정된 서블릿을 호출하여 요청처리를 위임하고, "최초 client가 요청했떤 url에는 변화가 없다."
+		 *  */
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/person/testPerson.jsp");
 		dispatcher.forward(request, response);// 데이터 그대로 담아서 전송
 	}
