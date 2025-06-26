@@ -1,4 +1,4 @@
-package com.kh.ajax.text;
+package com.kh.ajax.js;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -29,7 +29,6 @@ public class JsAjaxServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
 		request.setCharacterEncoding("utf-8");
 		String userId = request.getParameter("id");
 		String name = request.getParameter("name");

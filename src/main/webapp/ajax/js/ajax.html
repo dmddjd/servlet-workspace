@@ -66,8 +66,7 @@ table img {
 						// 정상수신시 xhr의 responseText에 응답데이터가 저장
 						console.log(xhr.responseText);
 						document.querySelector("#target").innerHTML += "<h3>"+xhr.responseText+"</h3>";
-					}
-					else if(xhr.status == 404){
+					}else if(xhr.status == 404){
 						alert("찾는 페이지가 존재하지 않습니다.");
 					}else {
 						alert("에러가 발생했습니다.");
@@ -168,20 +167,6 @@ table img {
 			})
 			;
 		}
-		
 	</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

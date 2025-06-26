@@ -26,12 +26,12 @@
 
 	<h1>text</h1>
 	<input type="button" value="실행" id="btn1"/>
-	<div class="wrapper"></div>
+	<div class="wrapper1"></div>
 	<hr />
 	
 	<h2>csv</h2>
 	<input type="button" value="실행" id="btn2" />
-	<div class="container"></div>
+	<div class="wrapper2"></div>
 	
 	<script>
 		$(function(){
@@ -74,7 +74,6 @@
 						//쥴리아 로버츠,15,여자\n
 						//김고은,25,여자\n
 						//다프트펑크,33,남자\n
-						// 
 						
 						const $table = $("<table></table>");
 						const persons = data.split("\r\n").slice(0, data.split("\n").length -1);
@@ -91,32 +90,14 @@
 							$table.append(tr);
 						})
 						
-						$(".container").append($table);
+						$(".wrapper2").append($table);
 					}, 
 					error : function(xhr, status, err){
 						console.log(xhr, status, err);
 					}
 				});				
 			});
-			
-			
-			
-			
-			
-			
 		})		
 	</script>
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

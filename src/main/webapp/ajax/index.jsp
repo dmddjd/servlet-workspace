@@ -15,30 +15,22 @@
 	
 	<h2>text</h2>
 	<ul>
-		<li><a href="text/text.html">text</a></li>
+		<li><a href="text/text.html">text-ajax</a></li>
 	</ul>
 	
 	<h2>html</h2>
 	<ul>
-		<li><a href="html/html.html">html</a></li>
+		<li><a href="html/html.html">html-ajax</a></li>
 	</ul>
 
 	<h2>xml</h2>
 	<ul>
-		<li><a href="xml/xml.html">xml</a></li>
+		<li><a href="xml/xml.html">xml-ajax</a></li>
 	</ul>
 	
 	<h2>json</h2>
 	<ul>
-		<li><a href="json/json.html">json</a></li>
+		<li><a href="json/json.html">json-ajax</a></li>
 	</ul>
-
-
-
-
-
-
-
-
 </body>
 </html>
