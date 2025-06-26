@@ -20,7 +20,6 @@
 	 - c:set을 통해 선언된 변수는 EL로 접근하여 사용할 수 있다.	
 	 - 변수의 자료형을 별도로 지정하지 않는다.
 	</pre>
-	
 	<c:set var="num1" value="10" />
 	<c:set var="num2" value="20" />
 	

@@ -28,7 +28,19 @@
 	<p> 변수, 조건문, 반복문등의 로직과 관련된 태그를 제공</p>
 	<a href="01_core.jsp">core lib</a>
 	
+	<br>
 	
+	<h4>2. JSTL Format Lib</h4>
+	<p>
+		숫자 , 날짜 및 시간데이터의 출력형식을 지정할 때 사용하는 태그를 제공
+	</p>
+	<a href="02_format.jsp">format lib</a>
+	
+	<br>
+	
+	<h4>3. JSTL Function lib</h4>
+	<p> EL구문 안에서 사용할 수 있는 각종 메서드를 제공 </p>
+	<a href="03_functions.jsp">funcion lib</a>
 	
 	
 	
